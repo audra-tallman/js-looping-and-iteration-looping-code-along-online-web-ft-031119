@@ -6,7 +6,7 @@ function writeCards(names, event) {
     console.log(`Thank you, ${names[i]} for  the wonderful ${event}!`);
   }
  
-  return cards;
+  return names;
 }
  
 writeCards(names, event);
