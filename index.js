@@ -1,6 +1,6 @@
-const gifts = ["teddy bear", "drone", "doll"];
+const names = ["Ada", "Brendan", "Ali"];
  
-function wrapGift(gifts) {
+function writeCards(names) {
   for (let i = 0; i < gifts.length; i++) {
     console.log(`Wrapped ${gifts[i]} and added a bow!`);
   }
